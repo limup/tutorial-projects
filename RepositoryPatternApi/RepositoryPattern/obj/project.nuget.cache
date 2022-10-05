@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xo3PnPb12554d+gN2BMUDA71HDcVb3Lk8y4SFSZUGR/Z8fUFyYI/WX8e7Eesl3cgOF85sq9lUmpX1eYYkjOXMw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern\\RepositoryPattern.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\limup\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0-preview.6.22330.3\\microsoft.aspnetcore.openapi.7.0.0-preview.6.22330.3.nupkg.sha512",
+    "C:\\Users\\limup\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\limup\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\limup\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\limup\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\limup\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\limup\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

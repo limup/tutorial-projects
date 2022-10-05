@@ -1,0 +1,12 @@
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Core\bin\Debug\net7.0\RepositoryPattern.Core.deps.json
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Core\bin\Debug\net7.0\RepositoryPattern.Core.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Core\bin\Debug\net7.0\RepositoryPattern.Core.pdb
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Core\obj\Debug\net7.0\RepositoryPattern.Core.csproj.AssemblyReference.cache
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Core\obj\Debug\net7.0\RepositoryPattern.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Core\obj\Debug\net7.0\RepositoryPattern.Core.AssemblyInfoInputs.cache
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Core\obj\Debug\net7.0\RepositoryPattern.Core.AssemblyInfo.cs
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Core\obj\Debug\net7.0\RepositoryPattern.Core.csproj.CoreCompileInputs.cache
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Core\obj\Debug\net7.0\RepositoryPattern.Core.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Core\obj\Debug\net7.0\refint\RepositoryPattern.Core.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Core\obj\Debug\net7.0\RepositoryPattern.Core.pdb
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Core\obj\Debug\net7.0\ref\RepositoryPattern.Core.dll

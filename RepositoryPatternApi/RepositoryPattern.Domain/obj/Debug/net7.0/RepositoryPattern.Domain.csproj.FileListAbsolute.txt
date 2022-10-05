@@ -1,0 +1,15 @@
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\obj\Debug\net7.0\RepositoryPattern.Domain.csproj.AssemblyReference.cache
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\obj\Debug\net7.0\RepositoryPattern.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\obj\Debug\net7.0\RepositoryPattern.Domain.AssemblyInfoInputs.cache
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\obj\Debug\net7.0\RepositoryPattern.Domain.AssemblyInfo.cs
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\obj\Debug\net7.0\RepositoryPattern.Domain.csproj.CoreCompileInputs.cache
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\bin\Debug\net7.0\RepositoryPattern.Domain.deps.json
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\bin\Debug\net7.0\RepositoryPattern.Domain.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\bin\Debug\net7.0\RepositoryPattern.Domain.pdb
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\bin\Debug\net7.0\RepositoryPattern.Core.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\bin\Debug\net7.0\RepositoryPattern.Core.pdb
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\obj\Debug\net7.0\RepositoryPattern.Domain.csproj.CopyComplete
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\obj\Debug\net7.0\RepositoryPattern.Domain.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\obj\Debug\net7.0\refint\RepositoryPattern.Domain.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\obj\Debug\net7.0\RepositoryPattern.Domain.pdb
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Domain\obj\Debug\net7.0\ref\RepositoryPattern.Domain.dll
