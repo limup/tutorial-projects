@@ -1,0 +1,25 @@
+Instalar a ferramenta EF primeiro
+>dotnet tool install --global dotnet-ef
+
+Packages Necessários Nuget
+
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.EntityFrameworkCore.Tools.DotNet
+Pomelo.EntityFrameworkCore.MySql
+
+Comandos após a instalação do Packages
+Lembrando que esse é uma metodologia Database First (pois a base já existe) e não Code First
+>dotnet restore
+>dotnet ef dbcontext scaffold "server=localhost;user=root;password=1234;database=ef" "Pomelo.EntityFrameworkCore.MySql" -c MyDbContext
+>dotnet ef dbcontext scaffold "server=108.167.132.21;user=vestap96_arnaldo;password=jAk2j8l1;database=vestap96_wp112" "Pomelo.EntityFrameworkCore.MySql" -o Models --context-dir Data -c VestAppContext --context-namespace New.Namespace
+
+https://learn.microsoft.com/en-us/ef/core/cli/dotnet
+
+Para codefirst usar o comando Migration. Vide documentação dotnet-ef
+Crie o Context;
+Adicione o ConnectionString no .json
+
+dotnet ef migrations add yourMigrationName
+dotnet ef database update
