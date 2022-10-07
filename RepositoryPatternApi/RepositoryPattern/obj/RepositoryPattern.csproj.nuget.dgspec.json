@@ -4,14 +4,14 @@
     "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern\\RepositoryPattern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern\\RepositoryPattern.csproj": {
+    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Core\\RepositoryPattern.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern\\RepositoryPattern.csproj",
-        "projectName": "RepositoryPattern",
-        "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern\\RepositoryPattern.csproj",
+        "projectUniqueName": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Core\\RepositoryPattern.Core.csproj",
+        "projectName": "RepositoryPattern.Core",
+        "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Core\\RepositoryPattern.Core.csproj",
         "packagesPath": "C:\\Users\\limup\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern\\obj\\",
+        "outputPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\limup\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,10 +39,223 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.6.22352.1\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Data\\RepositoryPattern.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Data\\RepositoryPattern.Data.csproj",
+        "projectName": "RepositoryPattern.Data",
+        "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Data\\RepositoryPattern.Data.csproj",
+        "packagesPath": "C:\\Users\\limup\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\limup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Domain\\RepositoryPattern.Domain.csproj": {
+                "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Domain\\RepositoryPattern.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.6.22352.1\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Domain\\RepositoryPattern.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Domain\\RepositoryPattern.Domain.csproj",
+        "projectName": "RepositoryPattern.Domain",
+        "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Domain\\RepositoryPattern.Domain.csproj",
+        "packagesPath": "C:\\Users\\limup\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\limup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Core\\RepositoryPattern.Core.csproj": {
+                "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Core\\RepositoryPattern.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.6.22352.1\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern\\RepositoryPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern\\RepositoryPattern.csproj",
+        "projectName": "RepositoryPattern",
+        "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern\\RepositoryPattern.csproj",
+        "packagesPath": "C:\\Users\\limup\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\limup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Data\\RepositoryPattern.Data.csproj": {
+                "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Data\\RepositoryPattern.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.0-preview.6.22330.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
