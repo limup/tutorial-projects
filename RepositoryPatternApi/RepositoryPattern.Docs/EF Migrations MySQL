@@ -22,4 +22,6 @@ Crie o Context;
 Adicione o ConnectionString no .json
 
 dotnet ef migrations add yourMigrationName
+dotnet ef migrations add .\RepositoryPattern.Data\Migrations\AppDbContextModel --verbose
+
 dotnet ef database update

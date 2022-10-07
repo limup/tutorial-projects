@@ -11,15 +11,15 @@ namespace RepositoryPattern.Data.Extensions
 {
     public static class DataExtensions
     {
-        public static IServiceCollection AddEntityFramework(this IServiceCollection services, IConfiguration configuration){
+        // public static IServiceCollection AddEntityFramework(this IServiceCollection services, IConfiguration configuration){
 
 
-            services.AddDbContext<AppDbContext>(options=>{
-                options.UseMySql(configuration.GetConnectionString("Default"), ServerVersion.AutoDetect(configuration.GetConnectionString("Default")));
-            });
+        //     services.AddDbContext<AppDbContext>(options=>{
+        //         options.UseMySql(configuration.GetConnectionString("Default"), ServerVersion.AutoDetect(configuration.GetConnectionString("Default")));
+        //     });
 
-            return services;
-        }
+        //     return services;
+        // }
         
     }
 }

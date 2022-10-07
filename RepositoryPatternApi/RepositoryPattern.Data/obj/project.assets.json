@@ -1180,6 +1180,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "RepositoryPattern.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/RepositoryPattern.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RepositoryPattern.Core.dll": {}
+        }
+      },
+      "RepositoryPattern.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "RepositoryPattern.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RepositoryPattern.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RepositoryPattern.Domain.dll": {}
+        }
       }
     }
   },
@@ -4665,6 +4688,16 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "RepositoryPattern.Core/1.0.0": {
+      "type": "project",
+      "path": "../RepositoryPattern.Core/RepositoryPattern.Core.csproj",
+      "msbuildProject": "../RepositoryPattern.Core/RepositoryPattern.Core.csproj"
+    },
+    "RepositoryPattern.Domain/1.0.0": {
+      "type": "project",
+      "path": "../RepositoryPattern.Domain/RepositoryPattern.Domain.csproj",
+      "msbuildProject": "../RepositoryPattern.Domain/RepositoryPattern.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4673,7 +4706,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.9",
       "Microsoft.EntityFrameworkCore.Tools.DotNet >= 2.0.3",
-      "Pomelo.EntityFrameworkCore.MySql >= 6.0.2"
+      "Pomelo.EntityFrameworkCore.MySql >= 6.0.2",
+      "RepositoryPattern.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4702,7 +4736,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Domain\\RepositoryPattern.Domain.csproj": {
+              "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais\\tutorial-projects\\RepositoryPatternApi\\RepositoryPattern.Domain\\RepositoryPattern.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

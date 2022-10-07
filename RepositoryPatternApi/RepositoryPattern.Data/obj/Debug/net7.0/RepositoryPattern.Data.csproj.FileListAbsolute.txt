@@ -12,3 +12,8 @@ C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPat
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Data\obj\Debug\net7.0\ref\RepositoryPattern.Data.dll
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Data\bin\Debug\net7.0\RepositoryPattern.Data.runtimeconfig.json
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Data\obj\Debug\net7.0\RepositoryPattern.Data.genruntimeconfig.cache
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Data\bin\Debug\net7.0\RepositoryPattern.Core.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Data\bin\Debug\net7.0\RepositoryPattern.Domain.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Data\bin\Debug\net7.0\RepositoryPattern.Domain.pdb
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Data\bin\Debug\net7.0\RepositoryPattern.Core.pdb
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Data\obj\Debug\net7.0\RepositoryPattern.Data.csproj.CopyComplete

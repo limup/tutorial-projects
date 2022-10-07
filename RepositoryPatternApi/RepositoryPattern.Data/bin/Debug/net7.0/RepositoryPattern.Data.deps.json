@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore.Design": "6.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.9",
           "Microsoft.EntityFrameworkCore.Tools.DotNet": "2.0.3",
-          "Pomelo.EntityFrameworkCore.MySql": "6.0.2"
+          "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
+          "RepositoryPattern.Domain": "1.0.0"
         },
         "runtime": {
           "RepositoryPattern.Data.dll": {}
@@ -686,6 +687,19 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "RepositoryPattern.Core/1.0.0": {
+        "runtime": {
+          "RepositoryPattern.Core.dll": {}
+        }
+      },
+      "RepositoryPattern.Domain/1.0.0": {
+        "dependencies": {
+          "RepositoryPattern.Core": "1.0.0"
+        },
+        "runtime": {
+          "RepositoryPattern.Domain.dll": {}
+        }
       }
     }
   },
@@ -1198,6 +1212,16 @@
       "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "RepositoryPattern.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RepositoryPattern.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
