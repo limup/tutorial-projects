@@ -10,3 +10,5 @@ C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPat
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Data\obj\Debug\net7.0\refint\RepositoryPattern.Data.dll
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Data\obj\Debug\net7.0\RepositoryPattern.Data.pdb
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Data\obj\Debug\net7.0\ref\RepositoryPattern.Data.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Data\bin\Debug\net7.0\RepositoryPattern.Data.runtimeconfig.json
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais\tutorial-projects\RepositoryPatternApi\RepositoryPattern.Data\obj\Debug\net7.0\RepositoryPattern.Data.genruntimeconfig.cache

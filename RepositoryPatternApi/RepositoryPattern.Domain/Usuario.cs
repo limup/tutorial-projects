@@ -1,3 +1,5 @@
+using RepositoryPattern.Core.Models;
+
 namespace RepositoryPattern.Domain
 {
     public class Usuario : Entity
