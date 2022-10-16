@@ -4,7 +4,7 @@ namespace MerchanCountriesWorker.Core.Models
 {
     public interface IRepositoryBase<TEntity> where TEntity : Entity
     {
-        Task<IEnumerable<TEntity>> Get(Expression<Func<TEntity, bool>> filter = null);
+        Task<IEnumerable<TEntity>> Get();
 
         Task AddAsync(TEntity entity);
         

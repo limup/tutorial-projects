@@ -7,7 +7,7 @@ using MerchanCountriesWorker.Domain;
 
 namespace MerchanCountriesWorker.Data.Repositories.Abstractions
 {
-    public interface ITimezonesRepository : IRepositoryBase<Timezone>
+    public interface ITimezoneRepository : IRepositoryBase<Timezone>
     {
         
     }
