@@ -1,0 +1,5 @@
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\tutorial-projects\MerchanCountries\MerchanCountriesWorker\MerchanCountriesWorker.Data\obj\Debug\net7.0\MerchanCountriesWorker.Data.csproj.AssemblyReference.cache
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\tutorial-projects\MerchanCountries\MerchanCountriesWorker\MerchanCountriesWorker.Data\obj\Debug\net7.0\MerchanCountriesWorker.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\tutorial-projects\MerchanCountries\MerchanCountriesWorker\MerchanCountriesWorker.Data\obj\Debug\net7.0\MerchanCountriesWorker.Data.AssemblyInfoInputs.cache
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\tutorial-projects\MerchanCountries\MerchanCountriesWorker\MerchanCountriesWorker.Data\obj\Debug\net7.0\MerchanCountriesWorker.Data.AssemblyInfo.cs
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\tutorial-projects\MerchanCountries\MerchanCountriesWorker\MerchanCountriesWorker.Data\obj\Debug\net7.0\MerchanCountriesWorker.Data.csproj.CoreCompileInputs.cache

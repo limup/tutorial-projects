@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "MerchanCountriesWorker.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MerchanCountriesWorker.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MerchanCountriesWorker.Core.dll": {}
+        }
+      },
+      "MerchanCountriesWorker.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MerchanCountriesWorker.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MerchanCountriesWorker.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MerchanCountriesWorker.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MerchanCountriesWorker.Core/1.0.0": {
+      "type": "project",
+      "path": "../MerchanCountriesWorker.Core/MerchanCountriesWorker.Core.csproj",
+      "msbuildProject": "../MerchanCountriesWorker.Core/MerchanCountriesWorker.Core.csproj"
+    },
+    "MerchanCountriesWorker.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MerchanCountriesWorker.Domain/MerchanCountriesWorker.Domain.csproj",
+      "msbuildProject": "../MerchanCountriesWorker.Domain/MerchanCountriesWorker.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "MerchanCountriesWorker.Core >= 1.0.0",
+      "MerchanCountriesWorker.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\limup\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Data\\MerchanCountriesWorker.Data.csproj",
+      "projectName": "MerchanCountriesWorker.Data",
+      "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Data\\MerchanCountriesWorker.Data.csproj",
+      "packagesPath": "C:\\Users\\limup\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Data\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\limup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj": {
+              "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj"
+            },
+            "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Domain\\MerchanCountriesWorker.Domain.csproj": {
+              "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Domain\\MerchanCountriesWorker.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.6.22352.1\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
