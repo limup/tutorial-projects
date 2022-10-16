@@ -1,28 +1,44 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using MerchanCountriesWorker.Core.Models;
+using Newtonsoft.Json;
 
 namespace MerchanCountriesWorker.Domain
 {
     public class Country : Entity
     {
-        public String Name { get; set; }
-        public String Symbol { get; set; }
-        public String Language { get; set; }
-        public String Capital { get; set; }
-        public long Population { get; set; }
-        public String Flag { get; set; }
-
-        public Country(Guid id, string name, string symbol, string language, string capital, long population, string flag) : base(id)
+        public Country(Guid id) : base(id)
         {
-            Name = name;
-            Symbol = symbol;
-            Language = language;
-            Capital = capital;
-            Population = population;
-            Flag = flag;
         }
+
+        [JsonPropertyName("name")]
+        public Name Name { get; set; }
+
+        [JsonPropertyName("cca2")]
+        public string Cca2 { get; set; }
+
+        [JsonPropertyName("currencies")]
+        public Currencies Currencies { get; set; }
+
+        [JsonPropertyName("capital")]
+        public List<string> Capital { get; set; }
+
+        [JsonPropertyName("languages")]
+        public Languages Languages { get; set; }
+
+        [JsonPropertyName("borders")]
+        public List<string> Borders { get; set; }
+
+        [JsonPropertyName("population")]
+        public int Population { get; set; }
+
+        [JsonPropertyName("timezones")]
+        public List<string> Timezones { get; set; }
+
+        [JsonPropertyName("flags")]
+        public Flags Flags { get; set; }
     }
 }

@@ -57,6 +57,18 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[7.0.0-preview.6.22324.4, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Net.Http.Headers": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "toJSON": {
+              "target": "Package",
+              "version": "[1.0.0.4, )"
             }
           },
           "imports": [
@@ -257,6 +269,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
