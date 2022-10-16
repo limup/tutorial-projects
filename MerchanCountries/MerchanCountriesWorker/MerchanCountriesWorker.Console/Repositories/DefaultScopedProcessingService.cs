@@ -27,25 +27,9 @@ namespace MerchanCountriesWorker.Console.Repositories
                 try
                 {
                     //Here, we request from programs to get base API
-                    var httpClient = _httpClientFactory.CreateClient("RestCountries");
-
-                    var httpResponseMessage = await httpClient.GetAsync("all");
-
-                    if (httpResponseMessage.IsSuccessStatusCode)
-                    {
-                        using var contentStream =
-                            await httpResponseMessage.Content.ReadAsStreamAsync();
-
-                        _country = await JsonSerializer.DeserializeAsync
-                         <IEnumerable<Country>> (contentStream);
-
-                         var Brasil = _country.Where(x=> x.Name.Common.Equals("Brazil")).FirstOrDefault();
-                        
-                        _logger.LogInformation("Conection API Success.");
-                    }
-
-                    var teste = await _countryRepository.Get();
-                    _logger.LogInformation("Data: ", teste.ToString());
+                    var countries = await DoHttpClient(_httpClientFactory.CreateClient("RestCountries"));
+                    
+                    await _countryRepository.AddManyAsync(countries);
 
                     await Task.Delay(1000, stoppingToken);
                 }
@@ -55,6 +39,22 @@ namespace MerchanCountriesWorker.Console.Repositories
                     throw ex;
                 }
                 
+            }
+        }
+
+        public async Task<IEnumerable<Country>?> DoHttpClient(HttpClient httpClient)
+        {
+            var httpResponseMessage = await httpClient.GetAsync("all");
+
+            if (httpResponseMessage.IsSuccessStatusCode)
+            {
+                using var contentStream =
+                    await httpResponseMessage.Content.ReadAsStreamAsync();
+
+                return await JsonSerializer.DeserializeAsync
+                 <IEnumerable<Country>>(contentStream);
+            }else{
+                return null;
             }
         }
     }

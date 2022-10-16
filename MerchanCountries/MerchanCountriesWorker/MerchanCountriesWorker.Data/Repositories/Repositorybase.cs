@@ -16,20 +16,20 @@ namespace MerchanCountriesWorker.Data.Repositories
             _dbCollection = _mongoContext.GetCollection<TEntity>(typeof(TEntity).Name);
         }
 
-        public async Task AddAsync(TEntity entity)
+        public async Task AddManyAsync(IEnumerable<TEntity> entities)
         {
-            if (entity == null)
+            if (entities == null)
             {
                 throw new ArgumentNullException(typeof(TEntity).Name + " object is null");
             }
-            await _dbCollection.InsertOneAsync(entity);
+            await _dbCollection.InsertManyAsync(entities);
         }
 
         /// <summary>
         /// Get all datas of datasource
         /// </summary>
         /// <returns></returns>
-        public async Task<IEnumerable<TEntity>> Get()
+        public async Task<IEnumerable<TEntity>> GetAsync()
         {
             var query = await _dbCollection.FindAsync(Builders<TEntity>.Filter.Empty);
             return await query.ToListAsync();
