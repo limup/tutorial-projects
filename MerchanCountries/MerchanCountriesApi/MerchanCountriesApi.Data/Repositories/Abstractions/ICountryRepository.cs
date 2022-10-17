@@ -7,8 +7,8 @@ using MerchanCountriesApi.Domain;
 
 namespace MerchanCountriesApi.Data.Repositories.Abstractions
 {
-    public interface ICountryRepository : IRepositoryBase<Country>
+    public interface ICountryRepository
     {
-        
+        Task<IEnumerable<Country>> GetAsync();
     }
 }

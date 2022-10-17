@@ -8,10 +8,18 @@ using MerchanCountriesApi.Domain;
 
 namespace MerchanCountriesApi.Data.Repositories
 {
-    public class CountryRepository : RepositoryBase<Country>, ICountryRepository
+    public class CountryRepository : ICountryRepository
     {
-        public CountryRepository(IMongoDBContext context) : base(context)
+        private readonly IRepositoryBase<Country> _repositoryBase;
+
+        public CountryRepository(IMongoDBContext context, IRepositoryBase<Country> repositoryBase)
         {
+            _repositoryBase = repositoryBase;
+        }
+
+        public async Task<IEnumerable<Country>> GetAsync()
+        {
+            return await _repositoryBase.GetAsync();
         }
     }
 }

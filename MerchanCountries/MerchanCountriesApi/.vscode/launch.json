@@ -13,7 +13,10 @@
             "args": [],
             "cwd": "${workspaceFolder}/MerchanCountriesApi",
             "console": "internalConsole",
-            "stopAtEntry": false
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
         },
         {
             "name": ".NET Core Attach",
