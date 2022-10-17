@@ -27,11 +27,14 @@ namespace MerchanCountriesWorker.Console.Repositories
                 {
                     //Here, we request from programs to get base API
                     var countries = await DoHttpClient(_httpClientFactory.CreateClient("RestCountries"));
+                    _logger.LogInformation("Conection API Countries Ok");
                     
                     await _countryRepository.AddManyAsync(countries);
+                    _logger.LogInformation("Inserted Many Countries to MongoDB Ok");
 
                     //Here we can define time to repeat.
                     await Task.Delay(60000, stoppingToken);
+                    _logger.LogInformation("Repeat to Get API Countries after one minutes");
                 }
                 catch (System.Exception ex)
                 {

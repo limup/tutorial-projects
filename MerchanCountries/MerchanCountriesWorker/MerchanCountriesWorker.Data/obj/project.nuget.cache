@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+WvIqj9XzLE3wxHB62UKeG9N8RbPULbpkPA2weZkNxSAPlHl/aDQvY9ABT8uDS7uUpCaoNz4w0twoWqcgfCFpA==",
+  "dgSpecHash": "w392HCltKpa7bpr7WawtG91+SOyxyJM9sJsmitWT5mBVgvPgH8ZDHPFQGipowkcJfdOvhsz0/Aq005QHy3FWfw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Data\\MerchanCountriesWorker.Data.csproj",
+  "projectFilePath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Data\\MerchanCountriesWorker.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\limup\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\limup\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

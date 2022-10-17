@@ -1,6 +1,5 @@
 using System.Linq.Expressions;
 using MerchanCountriesWorker.Core.Models;
-using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
 
 namespace MerchanCountriesWorker.Data.Repositories

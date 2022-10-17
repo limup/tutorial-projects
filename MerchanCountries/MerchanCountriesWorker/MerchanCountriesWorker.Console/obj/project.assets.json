@@ -2426,11 +2426,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj": {
-              "projectPath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj"
+            "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj": {
+              "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj"
             },
-            "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Data\\MerchanCountriesWorker.Data.csproj": {
-              "projectPath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Data\\MerchanCountriesWorker.Data.csproj"
+            "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Data\\MerchanCountriesWorker.Data.csproj": {
+              "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Data\\MerchanCountriesWorker.Data.csproj"
             },
             "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Domain\\MerchanCountriesWorker.Domain.csproj": {
               "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Domain\\MerchanCountriesWorker.Domain.csproj"
