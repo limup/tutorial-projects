@@ -7,11 +7,10 @@ namespace MerchanCountriesAngular.Data.Repositories
 {
     public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : Entity
     {
-        private readonly ICountryRepository _countryRepository;
         private readonly IHttpClientFactory _httpClientFactory;
 
-        public RepositoryBase(ICountryRepository countryRepository, IHttpClientFactory httpClientFactory)=>
-        (_countryRepository, _httpClientFactory) = (countryRepository, httpClientFactory);
+        public RepositoryBase(IHttpClientFactory httpClientFactory)=>
+        (_httpClientFactory) = (httpClientFactory);
 
         /// <summary>
         /// Get all datas of datasource

@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using MerchanCountriesAngular.Data.Repositories.Abstractions;
 using MerchanCountriesAngular.Domain;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace MerchanCountriesAngular.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class MerchanCountriesAngularController : ControllerBase
     {
         private readonly ICountryRepository _countryRepository;
