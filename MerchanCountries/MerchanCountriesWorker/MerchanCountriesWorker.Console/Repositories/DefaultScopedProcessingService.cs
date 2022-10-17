@@ -1,12 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text.Json;
-using System.Threading.Tasks;
 using MerchanCountriesWorker.Core.Models;
 using MerchanCountriesWorker.Data.Repositories.Abstractions;
 using MerchanCountriesWorker.Domain;
-using Microsoft.Extensions.Http;
 
 namespace MerchanCountriesWorker.Console.Repositories
 {
@@ -15,15 +10,19 @@ namespace MerchanCountriesWorker.Console.Repositories
         private readonly ILogger<DefaultScopedProcessingService> _logger;
         private readonly ICountryRepository _countryRepository;
         private readonly IHttpClientFactory _httpClientFactory;
+
         public IEnumerable<Country>? _country { get; set; }
 
-        public DefaultScopedProcessingService(ILogger<DefaultScopedProcessingService> logger, ICountryRepository context, IHttpClientFactory httpClientFactory) =>
-        (_logger, _countryRepository,_httpClientFactory) = (logger, context, httpClientFactory);
+        public DefaultScopedProcessingService(
+            ILogger<DefaultScopedProcessingService> logger,
+            ICountryRepository context,
+            IHttpClientFactory httpClientFactory) =>
+        (_logger, _countryRepository, _httpClientFactory) = (logger, context, httpClientFactory);
 
         public async Task DoWorkAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
-            {
+            {                
                 try
                 {
                     //Here, we request from programs to get base API
@@ -31,7 +30,8 @@ namespace MerchanCountriesWorker.Console.Repositories
                     
                     await _countryRepository.AddManyAsync(countries);
 
-                    await Task.Delay(1000, stoppingToken);
+                    //Here we can define time to repeat.
+                    await Task.Delay(60000, stoppingToken);
                 }
                 catch (System.Exception ex)
                 {

@@ -69,3 +69,5 @@ C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\tutorial-project
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\tutorial-projects\MerchanCountries\MerchanCountriesWorker\MerchanCountriesWorker.Console\obj\Debug\net7.0\MerchanCountriesWorker.Console.genruntimeconfig.cache
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\tutorial-projects\MerchanCountries\MerchanCountriesWorker\MerchanCountriesWorker.Console\obj\Debug\net7.0\ref\MerchanCountriesWorker.Console.dll
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\tutorial-projects\MerchanCountries\MerchanCountriesWorker\MerchanCountriesWorker.Console\bin\Debug\net7.0\toJSON.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\tutorial-projects\MerchanCountries\MerchanCountriesWorker\MerchanCountriesWorker.Console\bin\Debug\net7.0\FluentScheduler.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\tutorial-projects\MerchanCountries\MerchanCountriesWorker\MerchanCountriesWorker.Console\bin\Debug\net7.0\Cronos.dll

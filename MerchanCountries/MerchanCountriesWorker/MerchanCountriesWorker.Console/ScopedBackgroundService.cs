@@ -1,12 +1,9 @@
 using MerchanCountriesWorker.Core.Models;
-using MerchanCountriesWorker.Data.Repositories;
-using MerchanCountriesWorker.Data.Repositories.Abstractions;
-using MerchanCountriesWorker.Domain;
-using MongoDB.Driver;
 
 namespace MerchanCountriesWorker.Console;
 
-public class ScopedBackgroundService : BackgroundService
+public class 
+ScopedBackgroundService : BackgroundService
 {
     private readonly IServiceProvider _serviceProvider;
     private readonly ILogger<ScopedBackgroundService> _logger;

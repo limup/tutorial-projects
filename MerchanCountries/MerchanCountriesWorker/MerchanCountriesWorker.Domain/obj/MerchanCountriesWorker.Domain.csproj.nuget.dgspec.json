@@ -4,14 +4,14 @@
     "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Domain\\MerchanCountriesWorker.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj": {
+    "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj",
+        "projectUniqueName": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj",
         "projectName": "MerchanCountriesWorker.Core",
-        "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj",
+        "projectPath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj",
         "packagesPath": "C:\\Users\\limup\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\obj\\",
+        "outputPath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\limup\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj": {
-                "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj"
+              "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj": {
+                "projectPath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj"
               }
             }
           }

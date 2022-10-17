@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ASc0rmzB4ViCKVfuwELUFEPmCmiFNffkqC2AOA0V+mvkeUwgHpLTELyegD6JtjsdYUBP6w5pQ/WYbHSA0Z8jNg==",
+  "dgSpecHash": "d9o9mSlrfyv9Q9ZzTrmJW6/f0uAXbhL6WZXPz7OUq0ONtgRE9XiHMTRvG/VYrd3CLGiW5qhAbAIq2M/K8aNhgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj",
+  "projectFilePath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Core\\MerchanCountriesWorker.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\limup\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\limup\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",

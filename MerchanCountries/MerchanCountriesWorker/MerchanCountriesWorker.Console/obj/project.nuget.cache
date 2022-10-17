@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sqsG1iMggohRPjgNUXC5llTyuN5g4bGw4yQg1+43+X27fT2QVWegia+BYibMUYDyXnKnXHnokz8FxjnysCYCeA==",
+  "dgSpecHash": "JYNXT2AGpORHWL6Z8YaXJEqstiHHsgFqrA6fYCJ+GWRhStqSxNuhyY/fATZS2CGvJ+CuulmgImoqbtPQsC6rwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\tutorial-projects\\MerchanCountries\\MerchanCountriesWorker\\MerchanCountriesWorker.Console\\MerchanCountriesWorker.Console.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\limup\\.nuget\\packages\\cronos\\0.7.1\\cronos.0.7.1.nupkg.sha512",
     "C:\\Users\\limup\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\limup\\.nuget\\packages\\fluentscheduler\\5.5.1\\fluentscheduler.5.5.1.nupkg.sha512",
     "C:\\Users\\limup\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
     "C:\\Users\\limup\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.10\\microsoft.entityframeworkcore.abstractions.6.0.10.nupkg.sha512",
     "C:\\Users\\limup\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.10\\microsoft.entityframeworkcore.analyzers.6.0.10.nupkg.sha512",
