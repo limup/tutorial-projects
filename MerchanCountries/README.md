@@ -43,11 +43,6 @@ Stop
 ```http
   http://localhost:5224/api/MerchanCountries
 ```
-ou
-
-```http
-  http://localhost:8084/merchancountriesangular
-```
 
 #### Monog Express
 
