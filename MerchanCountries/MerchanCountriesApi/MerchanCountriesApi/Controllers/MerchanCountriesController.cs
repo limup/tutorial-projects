@@ -22,7 +22,7 @@ namespace MerchanCountriesApi.Controllers
         public async Task<IEnumerable<Domain.Country>> Get()
         {
             var countries = await _countryRepository.GetAsync();
-            return countries.Take(10); //How we have many registers, I select to get 10 rows.
+            return countries; //How we have many registers, I select to get 10 rows.
         }
     }
 }

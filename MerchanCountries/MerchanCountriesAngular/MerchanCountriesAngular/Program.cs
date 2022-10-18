@@ -13,7 +13,7 @@ builder.Services.AddScoped<ICountryRepository, CountryRepository>();
 
 builder.Services.AddHttpClient("RestCountries", httpClient =>
 {
-    httpClient.BaseAddress = new Uri("http://localhost:5224/api/");
+    httpClient.BaseAddress = new Uri("http://merchancountriesapi:5224/api/");
 
     //Here, we define when the API requires token.
     // httpClient.DefaultRequestHeaders.Add(

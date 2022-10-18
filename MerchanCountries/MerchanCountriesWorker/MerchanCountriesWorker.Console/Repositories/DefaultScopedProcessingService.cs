@@ -33,7 +33,7 @@ namespace MerchanCountriesWorker.Console.Repositories
                     _logger.LogInformation("Inserted Many Countries to MongoDB Ok");
 
                     //Here we can define time to repeat.
-                    await Task.Delay(60000, stoppingToken);
+                    await Task.Delay(600000, stoppingToken);
                     _logger.LogInformation("Repeat to Get API Countries after one minutes");
                 }
                 catch (System.Exception ex)
