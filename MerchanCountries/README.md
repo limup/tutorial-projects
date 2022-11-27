@@ -93,6 +93,12 @@ Econômicos)~~
 - [x] ~~Retirar os menus no Angular~~
 - [ ] Aplicar a Tailwind
 
+# Another repository, same code
+
+```http 
+https://github.com/limup/MerchanCountries
+```
+
 ## Contribuições e Bitcoin:
 PS: Se você encontrou valor neste projeto e quer contribuir um favor, então:
 
