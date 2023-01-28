@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="js/index.js"></script>
+
+    <title>Estrutura HTML5 - Limup</title>
+</head>
+
+<body>
+    <!-- Header principal -->
+    <header>
+        <h1>Precisa existir um h1 aqui.</h1>
+        <p>Conteúdo (Opcional)</p>
+    </header>
+
+    <!-- Menu -->
+    <nav>
+        <ul>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+        </ul>
+    </nav>
+
+    <!-- Barra lateral -->
+    <aside class="sidebar">
+        <h2>Sidebar (Opcional)</h2>
+        <p>Conteúdo da Sidebar</p>
+    </aside>
+
+    <!-- Parte principal do site -->
+    <main role="main">
+        <!-- Artigo -->
+        <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+            <header>
+                <h2 itemprop="headline">
+                    <a href="#" itemprop="url">
+                        Título do artigo
+                    </a>
+                </h2>
+            </header>
+
+            <!-- Data da publicação -->
+            <time itemprop="datePublished" datetime="2014-07-14">Segunda-feira, 14 de Julho de 2014</time>
+
+            <!-- Imagem em destaque (Opcional) -->
+            <img src="exemplo.jpg" alt="Nome da imagem" itemprop="image" />
+
+            <!-- Descrição (Opcional) -->
+            <div itemprop="description">Descrição do artigo.</div>
+
+            <!-- Texto HTML do artigo -->
+            <div class="post" itemprop="articleBody">O HTML do artigo vem aqui.</div>
+
+            <!-- Sessão do autor -->
+            <footer itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <h3 itemprop="name">Nome do autor</h3>
+                <p itemprop="description">Biografia do autor.</p>
+            </footer>
+        </article> <!-- Fim do primeiro artigo -->
+    </main>
+
+    <!-- Barra lateral -->
+    <aside class="sidebar">
+        <h2>Outra Sidebar (Opcional)</h2>
+        <p>Conteúdo da Sidebar</p>
+    </aside>
+
+    <!-- Conteúdo do rodapé -->
+    <footer>
+        Conteúdo do rodapé vem aqui
+    </footer>
+</body>
+
+</html>
