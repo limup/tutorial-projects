@@ -1,0 +1,210 @@
+<html>
+<!-- Cabeça -->
+
+<head>
+    <meta charset="utf-8" />
+
+    <!-- Titulo da aba -->
+    <title> Arnaldo </title>
+
+    <!-- Importando scripts js -->
+    <script src="./js/index.js"></script>
+
+    <!-- Importar estilização -->
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <!-- Icone da Aba -->
+    <link rel="icon" type="image/x-icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png">
+    <nav>
+        <!-- Navegador -->
+        <ul>
+            <li>
+                <a href="../../index.html" onclick="clicado()">Home</a>
+            </li>
+            <li>
+                <a href="../contato/contato.html">Contato</a>
+            </li>
+            <li>
+                <a href="../biblioteca/biblioteca.html">Biblioteca</a>
+            </li>
+            <li>
+                <a href="../login/login.html">Login</a>
+            </li>
+        </ul>
+    </nav>
+</head>
+<!-- Corpo -->
+
+<body>
+    <!-- Conteúdo da página -->
+    <article>
+
+        <h3> HTML - Aprenda tudo sobre HTML </h3>
+        <p>Neste link, você encontrará uma infinidade de tags que podemos utilizar no HTML:</p>
+        <a href="https://www.w3schools.com/tags/default.asp">HTML Documentation</a>
+
+        <!-- Titulo -->
+        <h1 id="corUnicoPrata"> Hello World </h1>
+        <h2> hello world </h2>
+        <h3> hello world </h3>
+        <h4> hello world </h4>
+        <h5> hello world </h5>
+        <h6> hello world </h6>
+
+        <!-- Paragrafo -->
+        <p> Meu primeiro site para começar a desenvolver no frontend e ganhar dinheiro. </p>
+
+        <!-- Link -->
+        <a href="./src/seg-pagina/seg-pagina.html"> Minha outra página. </a>
+
+        <!-- Quebra de linha -->
+        <br>
+
+        <!-- Imagens -->
+        <!-- width - Largura -->
+        <!-- height - Altura -->
+        <!-- px - pixel -->
+        <img width="50px" height="50px"
+            src="https://e7.pngegg.com/pngimages/116/847/png-clipart-large-white-pig-free-content-avatar-christmas-s-head-cartoon.png" />
+
+        <!-- Tabela -->
+        <table>
+            <!-- table row - Linha da tabela -->
+            <tr>
+                <!-- table head - Cabeçalho -->
+                <th>1º Coluna</th>
+                <th>2º Coluna</th>
+                <th>3º Coluna</th>
+                <th>4º Coluna</th>
+                <th>5º Coluna</th>
+            </tr>
+            <tr>
+                <!-- table data - Dados -->
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+                <td>Dado 4</td>
+                <td>Dado 5</td>
+            </tr>
+            <tr>
+                <!-- table data - Dados -->
+                <td></td>
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+                <td>Dado 4</td>
+                <td>Dado 5</td>
+            </tr>
+            <tr>
+                <!-- table data - Dados -->
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+                <td>Dado 4</td>
+                <td>Dado 5</td>
+            </tr>
+            <tr>
+                <!-- table data - Dados -->
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+                <td>Dado 4</td>
+                <td>Dado 5</td>
+            </tr>
+            <tr>
+                <!-- table data - Dados -->
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+                <td>Dado 4</td>
+                <td>Dado 5</td>
+            </tr>
+        </table>
+
+        <h3>Tipos de inputs</h3>
+        <label>Input text:</label>
+        <input type="text" name="nome" required />
+        <br />
+        <label>Input tel:</label>
+        <input type="tel" name="telefone" required />
+        <br />
+        <label>Input password:</label>
+        <input type="password" name="senha" required />
+        <br />
+        <label>Input time:</label>
+        <input type="time" name="hora" required />
+        <br />
+        <label>Input data:</label>
+        <input type="data" name="data" required />
+        <br />
+        <label>Input url:</label>
+        <input type="url" name="url" required />
+        <br />
+        <label>Input email:</label>
+        <input type="email" name="email" required />
+        <br />
+        <label>Input cor:</label>
+        <input type="color" name="cor" required />
+        <br />
+        <label>Input range:</label>
+        <input type="range" name="range" required />
+        <br />
+        <label>Input number:</label>
+        <input type="number" name="number" required />
+        <br />
+        <label>Input radio:</label>
+        <input type="radio" name="radio" required />
+        <br />
+        <label>Input checkbox:</label>
+        <input type="checkbox" name="checkbox" required />
+        <br />
+        <label>Select options:</label>
+        <select name="opção" required>
+            <option value="SP">São Paulo</option>
+            <option value="GRU">Guarulhos</option>
+            <option value="SCB">São Bernado dos Campos</option>
+        </select>
+        <br />
+        <label>Input reset:</label>
+        <input type="reset" name="reset" required />
+        <br />
+        <label>Input submit:</label>
+        <input type="submit" name="submit" required />
+        <br />
+
+        <h3>Formulários POST</h3>
+        <!-- Dois tipos de método: POST e GET. Ambos só servem para transferir dados entre arquivos por servidor-->
+        <!-- POST quer dizer enviar dados para próxima página; -->
+        <!-- GET receber dados da página que enviou; -->
+        <!-- Action é o arquivoque deve ser redirecionado ao clicar no borão submit -->
+        <form method="POST" action="./src/login/login-in.html">
+            <label>Input text:</label>
+            <input type="text" name="nome" required />
+            <br />
+            <label>Input password:</label>
+            <input type="password" name="senha" required />
+            <br />
+            <label>Input reset:</label>
+            <input type="reset" name="reset" required />
+            <br />
+            <label>Input checkbox:</label>
+            <input type="checkbox" name="checkbox" required />
+            <br />
+            <label>Input submit:</label>
+            <input type="submit" name="submit" required />
+            <br />
+        </form>
+    </article>
+    <!-- Rodapé do conteúdo -->
+    <aside>
+
+
+    </aside>
+
+</body>
+<!-- Pé / Rodapé-->
+<footer>
+    <p> Copyright arnaldo</p>
+</footer>
+
+</html>

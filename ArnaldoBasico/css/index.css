@@ -1,0 +1,71 @@
+html,
+body {
+  font-family: 'Roboto Condensed', calibri;
+  font-size: 22px;
+  background-color: #0f0f0f;
+}
+
+body {
+  height: 100%;
+}
+
+nav {
+  background-color: rgb(0, 173, 239);
+  position: fixed;
+  margin-top: -10px;
+  margin-left: -10px;
+  width: 100%;
+}
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > ul > li {
+  padding: 10px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  font-size: 16px;
+  color: #07ef06;
+}
+
+/* link que ainda não foi visitado */
+nav > ul > li > a:link {
+  color: #ffffff;
+}
+
+/* link que foi visitado */
+nav > ul > li > a:visited {
+  color: #ffffff;
+}
+
+/* link selecionado */
+nav > ul > li > a:active {
+  color: #ffffff;
+}
+
+h1 {
+  color: #07ef06;
+  border: 2px solid #07ef06;
+}
+
+article {
+  height: 100px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  margin-left: -10px;
+}
